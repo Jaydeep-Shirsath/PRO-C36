@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MyQuiz Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      const firebaseConfig = {
+  apiKey: "AIzaSyD8OJ_ltT4hAxVPU5P7xcLMtjrXMGChc6I",
+  authDomain: "air-balloon-ride-d6f0d.firebaseapp.com",
+  databaseURL: "https://air-balloon-ride-d6f0d-default-rtdb.firebaseio.com",
+  projectId: "air-balloon-ride-d6f0d",
+  storageBucket: "air-balloon-ride-d6f0d.appspot.com",
+  messagingSenderId: "1075258620390",
+  appId: "1:1075258620390:web:b381f48b4d4c7875d53e27"
+};
+  
+      //Your web app's Firebase configuration
+      /*const firebaseConfig = {
+  apiKey: "AIzaSyAtjHKN3fDDmSARD0FSscscRXFAwFqTW2Y",
+  authDomain: "balloon-c13af.firebaseapp.com",
+  databaseURL: "https://balloon-c13af-default-rtdb.firebaseio.com",
+  projectId: "balloon-c13af",
+  storageBucket: "balloon-c13af.appspot.com",
+  messagingSenderId: "779293040969",
+  appId: "1:779293040969:web:43f0b813f666befaad7a98"
+  };*/
+      /*const firebaseConfig = {
+  apiKey: "AIzaSyDWRQJVYcpeckMSHCGnE5QSkVTN43XejlQ",
+  authDomain: "balloon-29308.firebaseapp.com",
+  databaseURL: "https://balloon-29308-default-rtdb.firebaseio.com",
+  projectId: "balloon-29308",
+  storageBucket: "balloon-29308.appspot.com",
+  messagingSenderId: "365791803474",
+  appId: "1:365791803474:web:9d3e601da027f241a4078b"
+};*/
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+</html>
